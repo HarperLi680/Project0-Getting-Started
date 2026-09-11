@@ -38,6 +38,20 @@ does not represent steady-state performance.
 
 ![Nsight Systems timeline](images/nsight-systems-timeline.png)
 
+### Nsight Compute
+
+I profiled createVersionVisualization on the NVIDIA H200 using
+Nsight Compute 2026.3.0 and viewed the Summary and Details pages.
+The measured GPU duration was 3.74 microseconds. The kernel used
+2,500 thread blocks with 256 threads per block.
+
+GPU clocks were not fixed during profiling, so this measurement
+does not represent stable benchmark performance.
+
+![Nsight Compute summary](images/nsight-compute-summary.png)
+
+![Nsight Compute details](images/nsight-compute-details.png)
+
 ### WebGL
 
 I checked WebGL in Chrome on my MacBook Pro. The report confirmed
