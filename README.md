@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * Qingying Li
   * [LinkedIn](https://www.linkedin.com/in/harper-li-292730373/)
-* Tested on: MacBook Pro, Apple M1 Pro, macOS, Google Chrome (WebGL/WebGPU); lab-provided NVIDIA H200 server, Ubuntu 22.04 Docker container, CUDA Toolkit 12.4, CMake 3.22.1 (CUDA).
+* Tested on: personal MacBook Pro, Apple M1 Pro, macOS, Google Chrome (WebGL/WebGPU); lab-provided NVIDIA H200 server, Ubuntu 22.04 Docker container, CUDA Toolkit 12.4, CMake 3.22.1 (CUDA).
 
 
 ### CUDA GL Check
